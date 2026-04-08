@@ -5,7 +5,7 @@ dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
 async function connectDB() {
     try {
-        await mongoose.connect("mongodb+srv://shubham:todo1234@todo.dtrpiex.mongodb.net/todo");
+        await mongoose.connect("");
         console.log("MongoDB connected");
     } catch (err) {
         console.error("Connection error:", err);
