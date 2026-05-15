@@ -1,4 +1,3 @@
-require('dotenv').config() //This automatically loads .env variables into process.env
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
